@@ -22,6 +22,7 @@
     
     <script type="application/javascript" src="lib/game.js"></script>
     <script type="application/javascript" src="lib/gameView.js"></script>
+    <script type="application/javascript" src="lib/sphere.js"></script>
     
 
     <script type="application/javascript">
@@ -35,6 +36,16 @@
         var ctx = canvasEl.getContext("2d");
         var game = new BounceGame.Game();
         new BounceGame.GameView(game, ctx).start();
+
+
+
+
+        canvasEl.onmousedown = function(event){
+          game.mouseDown(event.offsetX, event.offsetY);
+        };
+
+
+
       })();
     </script>
   </body>
