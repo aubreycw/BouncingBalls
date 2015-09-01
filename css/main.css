@@ -1,0 +1,32 @@
+body {
+    background-color: #7F6E7F;
+}
+
+canvas {
+  position: relative;
+  float: left;
+  left: -10px;
+  top: -10px;
+}
+
+div.sidebar {
+  position: relative;
+  float: left;
+  left: -10px;
+  top: -10px;
+  padding-left: 25px;
+  width: 200;
+}
+
+button {
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #341934;
+  padding: 10px 20px 10px 20px;
+}
+
+button:hover {
+  background: #2F162F;
+}
